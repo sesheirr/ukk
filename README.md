@@ -1,4 +1,4 @@
-# SIGAP Payroll — Aplikasi Slip Gaji Karyawan
+# Aplikasi Slip Gaji Karyawan
 Latihan UKK Junior Web Programmer 2026
 
 ## 1. Deskripsi Aplikasi
