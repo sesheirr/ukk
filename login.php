@@ -16,7 +16,7 @@ unset($_SESSION['login_error']);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Login | Slip Gaji</title>
+<title>Login</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -24,14 +24,6 @@ unset($_SESSION['login_error']);
 <body>
   <div class="login-wrap">
     <div class="login-box">
-      <div class="login-side">
-        <div class="brand"><span class="dot"></span>Slip Gaji</div>
-        <div>
-          <h1>Kelola slip gaji karyawan dengan cepat dan rapi.</h1>
-          <p>Masuk untuk menghitung penghasilan, potongan, dan gaji bersih setiap periode.</p>
-        </div>
-        <div style="font-size:12px;color:#8CA2B8;">&copy; 2026 Slip Gaji</div>
-      </div>
       <div class="login-form">
         <h2>Masuk</h2>
         <p class="hint">Gunakan akun yang telah terdaftar.</p>
@@ -49,6 +41,9 @@ unset($_SESSION['login_error']);
             <label for="password">Sandi</label>
             <input type="password" id="password" name="password" placeholder="••••••••" required>
           </div>
+          <p style="text-align:right;margin:-8px 0 16px;">
+            <a href="lupa_password.php" style="font-size:12px;color:var(--teal);font-weight:600;text-decoration:none;">Lupa kata sandi?</a>
+          </p>
           <button type="submit" class="btn">Login</button>
         </form>
 
