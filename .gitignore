@@ -1,0 +1,27 @@
+# === File/folder yang TIDAK perlu ikut di-push ke GitHub ===
+
+# File sistem OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache & log PHP/Apache lokal (kalau ada)
+*.log
+error_log
+
+# File environment lokal (kalau nanti ditambahkan, JANGAN pernah di-commit)
+.env
+.env.local
+
+# Folder session PHP lokal (kalau XAMPP nyimpen di dalam folder project)
+sessions/
+
+# Dump/backup database manual (bukan file schema resmi di /database)
+*.sql.bak
+*.sql.OLD
